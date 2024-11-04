@@ -12,8 +12,8 @@ arrayNames.forEach((element) => {
 
 const arrayNames2 = ['Anna', 'Bernat', 'Clara'];
 
-for (let i of arrayNames2) {
-    console.log(i);
+for (let name of arrayNames2) {
+    console.log(name);
 }
 
 // Ejercicio 3
@@ -40,11 +40,11 @@ for (let key in obj) {
 
 let numbers7 = [1, 2, 3, 4, 5, 6];
 
-for (let key of numbers7) {
-    if (key === 5) {
+for (let number of numbers7) {
+    if (number === 5) {
         break;
     }
-    console.log(key);
+    console.log(number);
 }
 
 

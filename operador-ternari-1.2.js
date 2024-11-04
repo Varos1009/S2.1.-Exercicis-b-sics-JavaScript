@@ -8,7 +8,7 @@ console.log(canDrive(18));
 
 // Ejercicio 2
 
-const compare = (num1, num2) => num1 > num2 ? 'num1 is bigger' : 'num2 is bigger'
+const compare = (num1, num2) => num1 > num2 ? `${num1} is bigger` : `${num2} is bigger`;
 
 console.log(compare(1, 2));
 
